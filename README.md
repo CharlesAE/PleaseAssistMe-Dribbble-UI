@@ -9,11 +9,15 @@
 
 [![Dribbble - PleaseAssistMe App][product-screenshot]](https://dribbble.com/shots/17109073-PleaseAssistMe-App-Redesign)
 
-This project is simply an open source recreation of a desigin of the PleaseAssistMe App I saw on Dribbble, using UIKit
+This project is a continuation of a series focused on recreating Dribbble app designs, utilizing the UIKit framework as the primary tool for implementation.
+
+## Acknowledgments
+
+* [Cuberto](https://dribbble.com/cuberto)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Built With
 
 * [![Swift 5][Swift]][Swift-url]
 * [![XCode 14][Xcode]][Xcode-url]
@@ -28,21 +32,26 @@ This project is simply an open source recreation of a desigin of the PleaseAssis
    ```
 2. Launch in Xcode
 
+### Libraries / Frameworks Used
+* [UIKit](https://developer.apple.com/documentation/uikit)
+* [UICollectionViewCompositionalLayout](https://developer.apple.com/documentation/uikit/uicollectionviewcompositionallayout)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
    
-## Acknowledgments
 
-* [Cuberto](https://dribbble.com/cuberto)
 
 
 ### Screenshot
 
 ![PleaseAssistMe](https://raw.githubusercontent.com/CharlesAE/PleaseAssistMe-Dribbble-UI/main/PAM.gif)|  
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Libraries / Frameworks Used
-* [UIKit](https://developer.apple.com/documentation/uikit)
-* [UICollectionViewCompositionalLayout](https://developer.apple.com/documentation/uikit/uicollectionviewcompositionallayout)
+## Contact
+
+Charles Edwards - [@CharlesAE_Dev](https://twitter.com/CharlesAE_Dev) - hello@charlesae.dev
+
+Website: [https://charlesae.dev](https://charlesae.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
