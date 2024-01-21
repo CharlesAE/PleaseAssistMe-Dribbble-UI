@@ -60,7 +60,7 @@ class MainTabController: UITabBarController{
         btn.translatesAutoresizingMaskIntoConstraints = false
         return btn
     }()
-    let bagBtn : UIButton = {
+    let notesBtn : UIButton = {
         var btn = UIButton()
         let config = UIImage.SymbolConfiguration(pointSize: 16, weight: .light, scale: .large)
         let image = UIImage(systemName: "note.text", withConfiguration: config)
@@ -71,7 +71,7 @@ class MainTabController: UITabBarController{
         return btn
     }()
     
-    let heartBtn : UIButton = {
+    let messageBtn : UIButton = {
         let btn = UIButton()
         let config = UIImage.SymbolConfiguration(pointSize: 16, weight: .light, scale: .large)
         let image = UIImage(systemName: "message.badge", withConfiguration: config)
@@ -114,7 +114,7 @@ class MainTabController: UITabBarController{
         
         tabBar.barTintColor = .white
         tabBar.addSubview(buttonStackView)
-        [homeBtn, bagBtn,heartBtn,userBtn].forEach {
+        [homeBtn, notesBtn, messageBtn, userBtn].forEach {
             buttonStackView.addArrangedSubview($0)
         }
         
@@ -140,12 +140,14 @@ class MainTabController: UITabBarController{
             homeBtn.heightAnchor.constraint(equalToConstant: 40),
             
             
-            bagBtn.widthAnchor.constraint(equalToConstant: 40),
-            bagBtn.heightAnchor.constraint(equalToConstant: 40),
+            notesBtn.widthAnchor.constraint(equalToConstant: 40),
+            notesBtn.heightAnchor.constraint(equalToConstant: 40),
             
             
-            heartBtn.widthAnchor.constraint(equalToConstant: 40),
-            heartBtn.heightAnchor.constraint(equalToConstant: 40),
+            messageBtn.widthAnchor.constraint(equalToConstant: 40),
+            messageBtn.heightAnchor.constraint(equalToConstant: 40),
+
+            
             userBtn.widthAnchor.constraint(equalToConstant: 40),
             userBtn.heightAnchor.constraint(equalToConstant: 40),
             
